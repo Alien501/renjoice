@@ -1,0 +1,60 @@
+.guest-card{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(52, 103, 225, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.guest-png{
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+}
+
+.guest-name {
+    font-weight: 600;
+}
+
+.spl{
+    background-color: rgba(255, 255, 0.5);
+    color: black;
+}
+
+.spl:hover{
+    background-color: rgba(255, 255, 1) !important;
+}
+
+.guest-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.guest-body h1{
+    font-size: 28px;
+}
+
+.guest-card:hover{
+    background-color: rgba(52, 103, 225, 1);
+    /* padding-top: 0px; */
+    padding-bottom: 70px;
+    cursor: pointer;
+    height: 199px;
+}
+
+.geust-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    flex-wrap: wrap;
+}

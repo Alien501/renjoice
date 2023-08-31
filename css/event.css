@@ -82,7 +82,7 @@
 }
 
 .about-col-bg{
-    background-image: url('/res/img/rec.jpg');
+    background-image: url('../res/img/rec.jpg');
     position: absolute;
     height: 60%;
     width: 100%;
@@ -103,6 +103,34 @@
     width: 70%;
 }
 
+.query-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.query-card{
+    background-color: rgba(218, 12, 133, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.query-card h1{
+    font-size: 18px;
+}
+
+.query-card p{
+    font-weight: 300;
+}
+
+.query-card p span{
+    font-weight: 400;
+}
+
+.query-card p span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 750px) {
     .event-about-grid{
         grid-template-columns: 100px 100px 100px 100px;
@@ -115,6 +143,10 @@
 
     .about-col-bg{
         height: 100%;
+    }
+    
+    .foot-text{
+        flex-direction: column !important;
     }
 }
 
@@ -132,4 +164,5 @@
     .about-col-bg{
         height: 100%;
     }
+
 }

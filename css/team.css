@@ -1,0 +1,59 @@
+.team-card{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(52, 103, 225, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+.team-png{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    z-index: 5;
+}
+
+.team-data{
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(52, 103, 225, 1);
+    z-index: -1;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.team-card-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.team-card-role{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.team-card:hover .team-png{
+    border-radius: 8px;
+    scale: 0.7;
+    margin-top: -110px;
+    cursor: pointer;
+}
+
+
+
+.team-card .link-ic{
+    background-color: var(--primary-color);
+}
+
+.team-card .link-ic:hover{
+    background-color: var(--secondary-color);
+}
